@@ -25,11 +25,13 @@
         android:id="@+id/txtFullMath"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/MainContainer"
         android:textColor="#696969"
+        android:text="00.00"
         android:textSize="20sp"
-        android:layout_margin="5dp">
+        android:layout_margin="5dp"
+        android:paddingRight="15dp">
 
     </TextView>
 
